@@ -15,6 +15,7 @@ BuildRequires:	lib64net1.1.2-devel
 %ifarch i586
 BuildRequires:	libnet1.1.2-devel
 %endif
+BuildRoot:	%{_tmppath}/%{name}-%{version}-root
 
 %description
 The more traditional traceroute(8) sends out either UDP or ICMP ECHO
