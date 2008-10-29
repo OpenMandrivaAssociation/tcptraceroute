@@ -3,7 +3,7 @@
 Name:           tcptraceroute
 Summary:        Traceroute implementation using TCP packets 
 Version:	1.5
-Release:	%mkrel 0.%{prel}.2
+Release:	%mkrel 0.%{prel}.3
 Source:		http://michael.toren.net/code/tcptraceroute/%{name}-%{version}%{prel}.tar.gz
 URL:		http://michael.toren.net/code/tcptraceroute/
 Group:		Networking/Other
@@ -15,7 +15,7 @@ BuildRequires:	lib64net1.1.2-devel
 %ifarch i586
 BuildRequires:	libnet1.1.2-devel
 %endif
-BuildRoot:	%{_tmppath}/%{name}-%{version}-root
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 The more traditional traceroute(8) sends out either UDP or ICMP ECHO
