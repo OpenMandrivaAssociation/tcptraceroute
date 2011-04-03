@@ -3,7 +3,7 @@
 Name:           tcptraceroute
 Summary:        Traceroute implementation using TCP packets 
 Version:	1.5
-Release:	%mkrel 0.%{prel}.4
+Release:	%mkrel 0.%{prel}.5
 Source:		http://michael.toren.net/code/tcptraceroute/%{name}-%{version}%{prel}.tar.gz
 URL:		http://michael.toren.net/code/tcptraceroute/
 Group:		Networking/Other
