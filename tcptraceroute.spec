@@ -55,3 +55,35 @@ firewall filters.
 
 			      
 
+
+
+%changelog
+* Sun Apr 03 2011 Luis Daniel Lucio Quiroz <dlucio@mandriva.org> 1.5-0.beta7.5mdv2011.0
++ Revision: 650091
+- Rebuild
+
+* Thu Jun 04 2009 Oden Eriksson <oeriksson@mandriva.com> 1.5-0.beta7.4mdv2010.0
++ Revision: 382702
+- rebuilt against libnet 1.1.3
+
+* Wed Oct 29 2008 Oden Eriksson <oeriksson@mandriva.com> 1.5-0.beta7.3mdv2009.1
++ Revision: 298418
+- rebuilt against libpcap-1.0.0
+
+* Mon Feb 18 2008 Thierry Vignaud <tv@mandriva.org> 1.5-0.beta7.2mdv2008.1
++ Revision: 170575
+- fix "foobar is blabla" summary (=> "blabla") so that it looks nice in rpmdrake
+- kill re-definition of %%buildroot on Pixel's request
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Tue Sep 04 2007 Oden Eriksson <oeriksson@mandriva.com> 1.5-0.beta7.2mdv2008.0
++ Revision: 79143
+- rebuild
+
+
+* Wed Jan 17 2007 Tomasz Pawel Gajc <tpg@mandriva.org> 1.5-0.beta7.1mdv2007.0
++ Revision: 109797
+- Import tcptraceroute
+
