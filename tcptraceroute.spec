@@ -6,7 +6,7 @@ Version:	1.5
 Release:	0.%{prel}.6
 License:	GPLv2+
 Group:		Networking/Other
-Url:		http://michael.toren.net/code/tcptraceroute/
+Url:		https://michael.toren.net/code/tcptraceroute/
 Source:		http://michael.toren.net/code/tcptraceroute/%{name}-%{version}%{prel}.tar.gz
 BuildRequires:	libnet-devel
 BuildRequires:	libpcap-devel
